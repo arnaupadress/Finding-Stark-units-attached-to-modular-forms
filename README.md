@@ -5,9 +5,18 @@ The motivation and methods used here can be found in https://upcommons.upc.edu/h
 
 ## Instructions of use
 
+To be completed. 
+
 ### Data files
 
 - **wt1.txt**:
+- **res.txt**:
+- **res_exp.txt**:
 
 ### Code files
+
+- **automatic_unit_finder.ipynb**:
+- **checks.ipynb**:
+- **create_results.ipynb**:
+- **progress_bar.ipynb**:
 
