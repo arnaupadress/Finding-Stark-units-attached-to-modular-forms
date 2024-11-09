@@ -11,7 +11,7 @@ If you spot any errors or have questions, feel free to reach out via email at [a
 ### Data files
 
 - **wt1.txt**: This file contains the data needed for the computations for the 19306 weight 1 newforms stored in the LMFDB. For each newform, it contains the LMFDB label (e.g. 23.1.b.a), the Conrey label of its character (e.g. 23.22) and the irreducible polynomial defining its coefficient field (e.g. [0, 1], meaning that the defining polynomial is $x=0$ and therefore the field is the field of rationals). 
-- **res.txt**: For the 19306 weight 1 newforms stored in the LMFDB, this file contains its LMFDB label and the polynomial defining its Stark unit for $b=1$ and $m=1$ in case it has been computed. It currently contains 2556/19306 Stark units, including all Stark units for coefficient field degree 1. 
+- **res.txt**: For the 19306 weight 1 newforms stored in the LMFDB, this file contains its LMFDB label and the polynomial defining its Stark unit for $b=1$ and $m=1$ in case it has been computed. It currently contains 3284/19306 Stark units, including all Stark units for coefficient field degree 1. 
 - **res_exp.txt**: This file contains extended information for the Stark units computed and also for computations that have been attempted but have failed for some reason. 
 
 ### Code files
@@ -22,4 +22,8 @@ These . They can be run with SageMath 9.5 (and possibly other versions of SageMa
 - **checks.ipynb**:
 - **create_results.ipynb**:
 - **progress_bar.ipynb**:
+
+### Detected problems
+
+- When the coefficients of the modular form returned by PARI contain more than one stacked 'Mod' (for instance, for 124.1.i.a the coefficients are given as `Mod(Mod(1, t^2 - t + 1), y^2 + Mod(t - 1, t^2 - t + 1))`)
 
