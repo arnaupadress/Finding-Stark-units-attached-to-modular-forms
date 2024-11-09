@@ -6,7 +6,9 @@ The theoretical background and methods used can be found in https://upcommons.up
 If you spot any errors or have questions, feel free to reach out via email at [arnaupadres@gmail.com](mailto:arnaupadres@gmail.com).
 
 
-## Instructions of use
+## Repository Structure
+
+Here is a description of the files and folders in this repository. 
 
 ### Data files
 
@@ -22,7 +24,7 @@ These files can be run with SageMath 9.5 (and possibly other versions of SageMat
 - **checks.ipynb**: This file can be used to check if there is any reason why the polynomials found are not the desired ones, by checking some conditions that they must satisfy. An explanation of this conditions (and other conditions) can be found in section *3.9. Confidence on the results* of my bachelor thesis, linked above. 
 - **progress_bar.ipynb**: This file can be used to track the progress of Stark units computed, including some useful statistics regarding degree of coefficient fields and others. 
 
-### Detected problems
+## Detected problems
 
 Currently, the most common reason why a computation of a Stark unit fails is that the function `algdep` from PARI does not return a monic polynomial (and therefore it cannot have found the desired polyomial defining the Stark unit). This can be either because the degree of the polynomial is too large, because the precision used is not enough for it to find the polynomial or for other reasons that I might not be considering. 
 
