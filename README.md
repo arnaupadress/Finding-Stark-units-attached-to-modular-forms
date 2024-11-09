@@ -20,7 +20,7 @@ Here is a description of the files and folders in this repository.
 
 These files can be run with SageMath 9.5 (and possibly other versions of SageMath). 
 
-- **automatic_unit_finder.ipynb**: This is the file that computes Stark units. 
+- **automatic_unit_finder.ipynb**: This is the file that computes Stark units. The method is explained in https://upcommons.upc.edu/handle/2117/411146.
 - **checks.ipynb**: This file can be used to check if there is any reason why the polynomials found are not the desired ones, by checking some conditions that they must satisfy. An explanation of this conditions (and other conditions) can be found in section *3.9. Confidence on the results* of my bachelor thesis, linked above. 
 - **progress_bar.ipynb**: This file can be used to track the progress of Stark units computed, including some useful statistics regarding degree of coefficient fields and others. 
 
