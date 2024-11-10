@@ -33,3 +33,10 @@ However, there are other minor issues that prevent some part of the code from wo
 - When the coefficients of the modular form returned by PARI contain more than one stacked `Mod` (for instance, for 124.1.i.a the coefficients are given as `Mod(Mod(1, t^2 - t + 1), y^2 + Mod(t - 1, t^2 - t + 1))`), the current implementation does not work, as the conversion of algebraic elements from PARI to Sage is not automated. The current approach uses if statements to detect the format outputed by PARI and only supports one `Mod`. The newforms that give rise to this error are marked as `error-mod` in the `Stark unit, b=1` column of the **res_exp.txt** file.
 - Unknown errors are marked as `error` in the `Stark unit, b=1` column of the **res_exp.txt** file.
 
+## LMFDB
+
+All Stark units for newforms of coefficient field degree 1 can now also be found at the [LMFDB](lmfdb.com). 
+
+
+
+
