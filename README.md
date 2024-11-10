@@ -20,7 +20,7 @@ Here is a description of the files and folders in this repository.
 
 These files can be run with SageMath 9.5 (and possibly other versions of SageMath). 
 
-- **automatic_unit_finder.ipynb**: This is the file that computes Stark units. 
+- **automatic_unit_finder.ipynb**: This is the file that computes Stark units. The method is explained in https://upcommons.upc.edu/handle/2117/411146.
 - **checks.ipynb**: This file can be used to check if there is any reason why the polynomials found are not the desired ones, by checking some conditions that they must satisfy. An explanation of this conditions (and other conditions) can be found in section *3.9. Confidence on the results* of my bachelor thesis, linked above. 
 - **progress_bar.ipynb**: This file can be used to track the progress of Stark units computed, including some useful statistics regarding degree of coefficient fields and others. 
 
@@ -30,6 +30,6 @@ Currently, the most common reason why a computation of a Stark unit fails is tha
 
 However, there are other minor issues that prevent some part of the code from working, listed below. 
 
-- When the coefficients of the modular form returned by PARI contain more than one stacked `Mod` (for instance, for 124.1.i.a the coefficients are given as `Mod(Mod(1, t^2 - t + 1), y^2 + Mod(t - 1, t^2 - t + 1))`), the current implementation does not work, as the conversion of algebraic elements from PARI to Sage is not currently automated. The current approach uses if statements to detect the format outputed by PARI and only supports one `Mod`. The newforms that give rise to this error are marked as `error-mod` in the `Stark unit, b=1` column of the **res_exp.txt** file.
+- When the coefficients of the modular form returned by PARI contain more than one stacked `Mod` (for instance, for 124.1.i.a the coefficients are given as `Mod(Mod(1, t^2 - t + 1), y^2 + Mod(t - 1, t^2 - t + 1))`), the current implementation does not work, as the conversion of algebraic elements from PARI to Sage is not automated. The current approach uses if statements to detect the format outputed by PARI and only supports one `Mod`. The newforms that give rise to this error are marked as `error-mod` in the `Stark unit, b=1` column of the **res_exp.txt** file.
 - Unknown errors are marked as `error` in the `Stark unit, b=1` column of the **res_exp.txt** file.
 
