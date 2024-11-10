@@ -37,6 +37,8 @@ However, there are other minor issues that prevent some part of the code from wo
 
 All Stark units for newforms of coefficient field degree 1 can now also be found at the [LMFDB](lmfdb.com). 
 
+![](https://github.com/arnaupadress/Finding-Stark-units-attached-to-modular-forms/blob/master/.github/edit)
+
 
 
 
