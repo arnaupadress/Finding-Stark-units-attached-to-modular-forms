@@ -3,7 +3,7 @@
 This repo contains the code used to compute Stark units of modular forms as part of my bachelor thesis. 
 The theoretical background and methods used can be found in https://upcommons.upc.edu/handle/2117/411146. 
 
-If you spot any errors or have questions, feel free to reach out via email at [arnaupadres@gmail.com](mailto:arnaupadres@gmail.com).
+If you spot any errors or have questions, feel free to reach out via email at arnaupadres[at]gmail[dot]com.
 
 
 ## Repository Structure
